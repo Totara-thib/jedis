@@ -3,6 +3,7 @@ name: Documentation Tests
 on:
   push:
     branches:
+      - tmp-ci-run
       - master
       - 'emb-examples'
   pull_request:

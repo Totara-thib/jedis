@@ -3,6 +3,9 @@
 name: Spring Data Redis Integration Test
 
 on:
+  push:
+    branches:
+      - tmp-ci-run
   pull_request:
     branches:
       - master

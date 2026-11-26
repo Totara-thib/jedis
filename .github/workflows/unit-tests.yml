@@ -9,6 +9,7 @@ on:
       - '**/*.md'
       - '**/*.rst'
     branches:
+      - tmp-ci-run
       - master
       - '[0-9].*'
       - 'feature/**'
